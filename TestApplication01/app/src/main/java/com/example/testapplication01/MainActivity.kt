@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
                     val intent = Intent(this, MainActivity2::class.java)
                     // startActivity(intent)
 
-
+                    /*
                     val snackBar = Snackbar.make(
                         it, "Button has been clicked",
                         Snackbar.LENGTH_LONG
@@ -42,7 +42,8 @@ class MainActivity : AppCompatActivity() {
                     snackBarView.setBackgroundColor(Color.CYAN)
                     val textView = snackBarView.findViewById(com.google.android.material.R.id.snackbar_text) as TextView
                     textView.setTextColor(Color.BLUE)
-                    snackBar.show()
+                    snackBar.show()*/
+
                 }
                 text1.text == getString(R.string.name, editText1.text) -> {
 
